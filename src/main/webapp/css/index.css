@@ -1,0 +1,78 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	overflow: hidden;
+}
+
+.p01{
+    background-image:url("/image/photo1.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	height:100vh; 
+}
+
+.p02{
+    background-image:url("/image/photo2.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	/*fixed 瘞賊�摰� scroll��憭�宏��� local���獢�蝘餃��*/
+	height:100vh; 
+}
+
+.p03{
+    background-image:url("/image/photo3.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	height:100vh; 
+}
+
+.p04{
+    background-image:url("/image/photo4.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	height:100vh; 
+}
+
+.p05{
+    background-image:url("/image/photo5.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	height:100vh; 
+}
+
+
+.nav{
+    position: fixed;
+	top:50%;
+	right:0px;
+	cursor:pointer;
+}
+
+li{
+	width:10px;
+	height:10px;
+	margin:10px;
+	background-color:white;
+	border-radius:5px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5) inset, -1px -1px 1px rgba(0,0,0,0.5) inset;
+	list-style-type:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
