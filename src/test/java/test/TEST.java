@@ -9,6 +9,6 @@ public class TEST {
 
 	public static void main(String[] args) {
 		logger.info("Hello Test");
-
+		logger.info("Hello Test Push By JuiWei");
 	}
 }
